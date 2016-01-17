@@ -1,0 +1,26 @@
+table.dataTable td.error{
+    background-image: url('../img/invalid.png');
+    background-repeat: no-repeat;
+}
+
+table.dataTable td.ok{
+    background-image: url('../img/valid.png');
+    background-repeat: no-repeat;
+}
+
+table th, table td{
+    text-align: left;
+}
+
+table.dataTable th{
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type=submit]{
+    padding:5px 15px;
+    border:0 1px;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
